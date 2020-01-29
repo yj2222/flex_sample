@@ -1,0 +1,24 @@
+.contents{
+  display: flex;
+}
+
+.contents__card{
+  width: 500px;
+  background-color: rgb(182, 255, 255);
+  padding: 10px;
+  border: 1px solid blue;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.contents__card--image{
+  width: 100%;
+}
+
+.contents__card--text{
+  padding: 10px 0;
+}
+
+.contents__card--textStrong{
+  color: red;
+}
